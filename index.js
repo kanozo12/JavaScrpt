@@ -1,4 +1,7 @@
 import $ from 'jquery';
+import './App/mystyle.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css'
 
 $(function(){
     $("#changeBtn").on("click", function(){
