@@ -4,9 +4,9 @@
   "description": "첫번째 웹팩 프로젝트",
   "main": "index.js",
   "scripts": {
-    "dev" : "webpack --mode=development",
-    "prod" : "webpack --mode=production",
-    "watch" : "webpack --watch --progress"
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "watch": "webpack --watch --progress"
   },
   "keywords": [
     "webpack"
