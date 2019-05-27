@@ -1,0 +1,23 @@
+{
+  "name": "webpacktest",
+  "version": "0.0.1",
+  "description": "첫번째 웹팩 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "webpack --mode=development",
+    "prod" : "webpack --mode=production",
+    "watch" : "webpack --watch --progress"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "gondr",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
